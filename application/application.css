@@ -1,0 +1,80 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.mainWindow {
+	-fx-background-image: url("acceull.PNG");
+	-fx-background-repeat: stretch;
+	-fx-background-size: 900 506;
+	-fx-background-position: center center;
+	-fx-font-family: sans-serif;
+}
+
+.labelForm {
+    -fx-text-fill: #007af4;
+    -fx-font-family: sans-serif;
+}
+
+
+.labelTitle {
+	-fx-font-family: sans-serif;
+	-fx-background-color: #3fa3ba;
+	-fx-text-fill: #f7f7f7;
+	-fx-font-size: 26.0px;
+	
+	}
+.labelTotal {
+	-fx-text-fill: #f7f7f7;
+	-fx-font-size: 26.0px;
+	-fx-font-family: sans-serif;
+	}	
+
+
+.button {
+	-fx-font-family: sans-serif;
+	-fx-background-color: #3fa3ba;
+	-fx-border-color: #3fa3ba;
+	-fx-background-raduis: 3.0,2.0,2.0 2.0;
+	-fx-font-size: 14.0px;
+	-fx-text-fill: #ffffff;
+	-fx-pref-height:40.0px;
+	-fx-pref-width:190.0px;
+
+	
+	}
+		
+.button:hover {
+    -fx-background-color: #1f2724, #1f2724;
+    -fx-border-color: #1f2724;
+}	
+	
+.boxTotal {
+	 -fx-background-color: #5b5b5b;
+	 -fx-border-color:#223344;
+	 -fx-font-size: 14.0px;
+	 -fx-font-family: sans-serif;
+	
+	 
+	 }	
+ 
+	 
+.table-row-cell {
+	 -fx-cell-size: 40.0px;
+	 -fx-font-size:14.0px;
+	 -fx-alignment: CENTER-RIGHT;
+	 -fx-border-width:0.144px;
+	 -fx-border-color:#0079f2;
+	 }	 
+	 
+.ventBox {
+	-fx-border-color : #0079f2;
+	-fx-padding:10px;
+}	
+
+
+.footer{
+	    -fx-alignment: center;
+    -fx-padding: 10 10 10 10;
+    -fx-border-width: 1;
+    -fx-border-color: #E8E8E8 transparent transparent transparent;
+}
+
+ 
+	
